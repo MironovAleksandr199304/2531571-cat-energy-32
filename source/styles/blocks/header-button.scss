@@ -2,10 +2,23 @@
 
 }
 
-.header-button__slogan{
-
+.header-button__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  line-height: 60px;
 }
 
-.header-button__link{
+.header-button__slogan {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
 
+.header-button__link {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
 }

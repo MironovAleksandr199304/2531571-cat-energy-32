@@ -6,14 +6,22 @@
 
 }
 
-.map__title{
-
+.map__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #111111;
 }
 
-.map__address{
-
+.map__address {
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
 }
 
-.map__city{
-
+.map__city {
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
 }
