@@ -7,11 +7,15 @@
 }
 
 .meal-plan__item--slim {
-
+  background-image: url("../../icons/stack.svg#cat-slim");
+  background-size: 36px 50px;
+  background-repeat: no-repeat;
 }
 
 .meal-plan__item--pro {
-
+  background-image: url("../../icons/stack.svg#cat-weight");
+  background-size: 67px 28px;
+  background-repeat: no-repeat;
 }
 
 .meal-plan__link--pro {
