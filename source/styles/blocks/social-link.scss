@@ -1,4 +1,8 @@
-.social-link__item::before {
+.social__link--vk::before {
+  mask-image: url("../../icons/stack.svg#icon-vk");
+}
+
+.social__link::before {
   content: "";
   background-color: #666666;
   background-position: center;
@@ -12,14 +16,11 @@
   mask-repeat: no-repeat;
 }
 
-.social-link--vk {
-  mask-image: url("../../icons/stack.svg#icon-vk");
-}
 
-.social-link--tg {
+.social__link--tg::before {
   mask-image: url("../../icons/stack.svg#icon-tg");
 }
 
-.social-link--youtube {
+.social__link--youtube::before {
   mask-image: url("../../icons/stack.svg#icon-youtube");
 }
