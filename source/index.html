@@ -120,7 +120,9 @@
             <source type="image/png" width="560" height="512" media="(min-width: 768px)" srcset="images/cat-after-tablet@1x.png, images/cat-after-tablet@2x.png 2x">
             <img class="success-story__image-after" src="images/cat-after-mobile@1x.png" srcset="images/cat-after-mobile@2x.png 2x" width="280" height="256" alt="Борис после сушки">
           </picture>
-          <button class="success-story__toggle" type="button" aria-label="Переключение картинок с котами до и после"></button>
+          <button class="success-story__toggle" type="button" aria-label="Переключение картинок с котами до и после">
+            <span class="visually-hidden">Кнопка слайдера</span>
+          </button>
         </div>
       </div>
     </section>
@@ -136,24 +138,20 @@
     <section class="social-link">
       <h3 class="visually-hidden">Блок с ссылками на соцсети</h3>
       <a class="social-link__logo" href="#">
-        <picture>
-          <source type="image/png" width="128" height="24" media="(min-width: 1388px)" srcset="images/footer-logo-dekstop@1x.png, images/footer-logo-dekstop@2x.png 2x">
-          <source type="image/png" width="128" height="24" media="(min-width: 768px)" srcset="images/footer-logo-tablet@1x.png, images/footer-logo-tablet@2x.png 2x">
-          <img class="social-link__logo-cat-energy" src="images/footer-logo-mobile@1x.png" srcset="images/footer-logo-mobile@2x.png 2x" width="128" height="24" alt="Логотип Cat Energy">
-        </picture>
+        <img class="social-link__logo-cat-energy" src="images/footer-logo-mobile@1x.png" srcset="images/footer-logo-mobile@2x.png 2x" width="128" height="24" alt="Логотип Cat Energy">
       </a>
       <ul class="social-link__list">
-        <li class="social-link__item">
+        <li class="social-link__item social-link--vk">
           <a href="#">
             <span class="visually-hidden">Логотип ВК</span>
           </a>
         </li>
-        <li class="social-link__item">
+        <li class="social-link__item social-link--youtube">
           <a href="#">
             <span class="visually-hidden">Логотип Youtube</span>
           </a>
         </li>
-        <li class="social-link__item">
+        <li class="social-link__item social-link--tg">
           <a href="#">
             <span class="visually-hidden">Логотип Telegram</span>
           </a>
