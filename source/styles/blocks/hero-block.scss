@@ -1,0 +1,23 @@
+.hero-block__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.hero-block__slogan {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.hero-block__link {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.hero-block {
+  display: flex;
+  flex-direction: column;
+}
