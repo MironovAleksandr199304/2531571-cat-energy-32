@@ -20,16 +20,11 @@
     <div class="main-header__wrapper">
       <a class="main-header__logo" href="#">
         <picture>
-          <source type="image/png" width="70" height="59" media="(min-width:1388px)" srcset="images/logo_image_dekstop@1x.png, images/logo_image_dekstop@2x.png 2x">
-          <source type="image/png" width="60" height="50" media="(min-width:768px)" srcset="images/logo-image-tablet@1x.png, images/logo-image-tablet@2x.png 2x">
-          <img class="logo-image" src="images/logo-image-mobile@1x.png" srcset="images/logo-image-mobile@2x.png 2x" width="33" height="38" alt="Логотип-картинка">
-        </picture>
-      </a>
-      <a class="main-header__logo-text" href="#">
-        <picture>
-          <source type="images/png" width="118" height="21" media="(min-width:1388px)" srcset="images/logo-text-dekstop@1x.png, images/logo-text-dekstop@2x.png 2x">
-          <source type="image/png" width="101" height="18" media="(min-width:768px)" srcset="images/logo-text-tablet@1x.png, images/logo-text-tablet@2x.png 2x">
-          <img class="logo-text" src="images/logo-text-mobile@1x.png" width="101" height="18" srcset="images/logo-text-mobile@2x.png 2x" alt="Логотип-текст">
+          <picture>
+            <source type="image/svg+xml" media="(min-width: 1300px)" srcset="images/logo-header-dekstop.svg">
+            <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-header-tablet.svg">
+            <img src="images/logo-header-mobile.svg" width="191" height="38" alt="Кэт энерджи">
+          </picture>
         </picture>
       </a>
       <button class="main-header__menu" type="button">
@@ -64,40 +59,46 @@
       <a class="hero-block__link" href="#">Подобрать программу</a>
     </div>
     <section class="meal-plan">
-      <ul class="meal-plan__list">
-        <li class="meal-plan__item meal-plan__item--slim">
-          <h3 class="meal-plan__title">Похудение</h3>
-          <p class="meal-plan__descr">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-          <a class="meal-plan__link meal-plan__link--slim" href="#">
-            Каталог Slim
-          </a>
-        </li>
-        <li class="meal-plan__item meal-plan__item--pro">
-          <h3 class="meal-plan__title">Набор массы</h3>
-          <p class="meal-plan__descr">Заработать авторитет среди дворовых котов и даже собак?Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-          <a class="meal-plan__link meal-plan__link--pro" href="#">
-            Каталог PRO
-          </a>
-        </li>
-      </ul>
+      <div class="meal-plan__wrapper">
+        <ul class="meal-plan__list">
+          <li class="meal-plan__item meal-plan__item--slim">
+            <div class="meal-plan__inner">
+              <h3 class="meal-plan__title">Похудение</h3>
+              <p class="meal-plan__descr">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
+              <a class="meal-plan__link meal-plan__link--slim" href="#">
+                Каталог Slim
+              </a>
+            </div>
+          </li>
+          <li class="meal-plan__item meal-plan__item--pro">
+            <h3 class="meal-plan__title">Набор массы</h3>
+            <p class="meal-plan__descr">Заработать авторитет среди дворовых котов и даже собак?Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
+            <a class="meal-plan__link meal-plan__link--pro" href="#">
+              Каталог PRO
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="benefits">
-      <h3 class="benefits__title">Как это работает?</h3>
-      <ul class="benefits__list">
-        <li class="benefits__item benefits__item-one">
-          Функциональное питание <br>содержит только полезные <br>питательные вещества.
-        </li>
-        <li class="benefits__item benefits__item-two">
-          Выпускается в виде порошка,<br>который нужно лишь залить<br>кипятком и готово.
-        </li>
-        <li class="benefits__item benefits__item-three">
-          Замените один-два приема<br>обычной еды на наше<br>функциональное питание.
-        </li>
-        <li class="benefits__item benefits__item-four">
-          Уже через месяц наслаждайтесь<br>изменениями к лучшему<br>вашего питомца!
-        </li>
-      </ul>
+      <div class="benefits__wrapper">
+        <h3 class="benefits__title">Как это работает?</h3>
+        <ul class="benefits__list">
+          <li class="benefits__item benefits__item-one">
+            Функциональное питание <br>содержит только полезные <br>питательные вещества.
+          </li>
+          <li class="benefits__item benefits__item-two">
+            Выпускается в виде порошка,<br>который нужно лишь залить<br>кипятком и готово.
+          </li>
+          <li class="benefits__item benefits__item-three">
+            Замените один-два приема<br>обычной еды на наше<br>функциональное питание.
+          </li>
+          <li class="benefits__item benefits__item-four">
+            Уже через месяц<br> наслаждайтесь изменениями<br> к лучшему вашего питомца!
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="success-story">
       <div class="success-story__text">

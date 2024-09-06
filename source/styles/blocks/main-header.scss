@@ -1,13 +1,10 @@
 .main-header__wrapper {
   min-width: 320px;
   display: flex;
+  padding: 13px 20px;
+  position: relative;
 }
 
-.main-header__logo {
-  margin-top: 13px;
-  margin-left: 20px;
-  margin-right: 56px;
-}
 
 .main-header__logo-text {
   margin-top: 23px;
@@ -21,7 +18,10 @@
   width: 24px;
   height: 24px;
   background-color: #ffffff;
-  margin-top: 20px;
+  position: absolute;
+  top: 20px;
+  right: 21px;
+  padding: 0;
 }
 
 @media (min-width: 768px) {

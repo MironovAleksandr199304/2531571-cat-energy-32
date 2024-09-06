@@ -2,12 +2,21 @@
   font-family: "Oswald", sans-serif;
   font-size: 36px;
   line-height: 36px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  padding-right: 35px;
+  padding-left: 35px;
+  margin-bottom: 25px;
 }
 
 .hero-block__slogan {
   font-family: "Oswald", sans-serif;
   font-size: 14px;
   line-height: 14px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 29px;
 }
 
 .hero-block__link {
@@ -17,17 +26,22 @@
   background-color: #68b738;
   color: #ffffff;
   text-transform: uppercase;
-  padding: 11px;
-  display: block;
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
+  padding: 10px 44px;
+  text-decoration: none;
+  min-width: 280px;
+  width: 100%;
 }
 
 .hero-block {
   display: flex;
   flex-direction: column;
+  margin: 0;
   margin-bottom: 20px;
+  min-width: 320px;
+  max-width: 1440px;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
 }
 
 @media (min-width: 768px) {
